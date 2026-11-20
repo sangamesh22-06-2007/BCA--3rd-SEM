@@ -16,7 +16,7 @@ class Employee {
             LocalDate.of(2014, 10, 5)
         };
 
-        // Sort by date (oldest first)
+      
         for (int i = 0; i < name.length - 1; i++) {
             for (int j = i + 1; j < name.length; j++) {
                 if (date[i].isAfter(date[j])) {
