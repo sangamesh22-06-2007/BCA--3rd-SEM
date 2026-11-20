@@ -9,7 +9,6 @@ super.paintComponent(g);
 g.setColor(Color.BLU
 E);
 g.setFont(new Font("Arial", Font.BOLD, 18));
-// Displaying sample personal information strings 
 g.drawString("PERSONAL INFORMATION",
 50, 50);
 g.setColor(Color.BLACK);
@@ -21,7 +20,7 @@ Migrated from Applet!", 50, 160); S
 public static void main(String[] args) {
 JFrame frame = new JFrame("Personal Information Window");
 PersonalInfo panel = new PersonalInfo(); frame.add(panel);
-frame.setSize(500, 400); // Sets window dimensions width=500, height=400 
+frame.setSize(500, 400);
 frame.setLocationRelativeTo(null);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 frame.setVisible(true); 
